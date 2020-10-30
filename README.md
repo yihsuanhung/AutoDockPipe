@@ -29,7 +29,7 @@
     此步驟需準備好 protein 的 pdbqt 檔案以及 config 檔 (config 檔可直接複製範例來改)</br>
     從 pdb 上下載目標 protein 結構的 pdb 檔案，或使用 modeling 的方式準備好 pdb 檔案</br>
     若 pdb 檔案中有不必要的 heteroatoms (例如 ligands, substrates)，可用記事本打開，移除所有 HETATM 開頭的 row (可使用 PyMOL 視覺化檢查)</br>
-    misc/ 裡面有 AutoDockTools 教學：</br>
+    `misc/` 裡面有 AutoDockTools 教學：</br>
     依據 Exercise One: Preprocessing a PDB File 以及 Exercise Three: Preparing a Macromolecule 準備好 pdbqt 檔案</br>
     依據 Exercise Four: Setting the Search Space 決定好 docking 的位置，並把以下數值貼到 protein 的 config 檔案內：</br>
     center_x, center_y, center_z, size_x, size_y, size_z
@@ -62,19 +62,19 @@ result.csv 已將 docking 過後的 pdbqt 檔案以分數最高至最低排序</
 挑出前幾名的 pdbqt 檔案，在 output/ 中找到 pdbqt 檔案，即可使用 PyMOL 視覺化</br>
 
 ## 資料夾說明
-drugbank/</br>
+`drugbank/`</br>
     存放 ligands 資料庫</br>
-protein/</br>
+`protein/`</br>
     存放 protein</br>
     第一層為 protein id 之資料夾</br>
     第二層需包含該 protein 之 pdbqt 檔案及 config 檔案</br>
-output/</br>
+`output/`</br>
     存放 vina 與 qsub 之所有結果，包含 docking 後的 pdbqt 檔案以及 qsub 的 error 與 output 檔案</br>
-result/</br>
+`result/`</br>
     存放整理之後的輸出結果</br>
-script/</br>
+`script/`</br>
     存放 Pipeline 副程式</br>
-vina/</br>
+`vina/`</br>
     存放 AutoDock Vina 主程式</br>
-misc/</br>
+`misc/`</br>
     存放雜項</br>
