@@ -51,15 +51,15 @@
     ```
     python script/parser.py
     ```
-    輸出結果存在 result 資料夾內</br>
+    輸出結果存在 `result/` 資料夾內</br>
 
 8. 是視覺化輸出結果</br>
     將 protein pdbqt 檔案以及目標 ligand pdbqt 檔案一並丟到 PyMOL 內</br>
 
 ## Pipeline 結果
-開啟 result/ 資料夾內的 result.csv</br>
+開啟 `result/` 資料夾內的 `result.csv`</br>
 result.csv 已將 docking 過後的 pdbqt 檔案以分數最高至最低排序</br>
-挑出前幾名的 pdbqt 檔案，在 output/ 中找到 pdbqt 檔案，即可使用 PyMOL 視覺化</br>
+挑出前幾名的 pdbqt 檔案，在 `output/` 中找到 pdbqt 檔案，即可使用 PyMOL 視覺化</br>
 
 ## 資料夾說明
 `drugbank/`</br>
