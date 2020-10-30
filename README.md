@@ -5,7 +5,7 @@
 ## 使用說明
 1. 更新 Ligand Database (DrugBank)</br>
     https://www.drugbank.ca/releases/latest#structures</br>
-    下載 All structures (需登入，點擊下載或使用指令下載)</br>
+    下載 All structures (需登入，點擊下載或使用以下指令下載)</br>
     ```
     cd drugbank/
     curl -Lfv -o drugbank_all_structures.sdf.zip -u [帳號]:[密碼] https://go.drugbank.com/releases/[版本]/downloads/all-structures
@@ -53,7 +53,7 @@
     ```
     輸出結果存在 `result/` 資料夾內</br>
 
-8. 是視覺化輸出結果</br>
+8. 視覺化輸出結果</br>
     將 protein pdbqt 檔案以及目標 ligand pdbqt 檔案一並丟到 PyMOL 內</br>
 
 ## Pipeline 結果
