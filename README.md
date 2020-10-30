@@ -1,5 +1,6 @@
 
 # AutoDock Vina Pipeline
+這是一個建立在台灣杉上的 protein-ligand docking pipeline
 
 ## 使用說明
 1. 更新 Ligand Database (DrugBank)</br>
