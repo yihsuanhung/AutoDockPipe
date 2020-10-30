@@ -9,7 +9,7 @@
     cd drugbank/
     curl -Lfv -o drugbank_all_structures.sdf.zip -u [帳號]:[密碼] https://go.drugbank.com/releases/[版本]/downloads/all-structures
     ```
-    *若無新版本則可直接跳至第5步驟
+    註：若無新版本則可直接跳至第5步驟
 
 2. 將 ligands 轉成 pdbqt 格式 (使用 open babel)
     ```
@@ -36,9 +36,10 @@
 6. 執行 vina </br>
     回到 autodock pipeline 目錄</br>
     ```
-    python qsub_vina.py -p <protein_id> (protein id 必須與 protein 內的資料夾名稱一致) </br>
+    python qsub_vina.py -p <protein_id>
     python qsub_vina.py -p 3pe3</br>
     ```
+    註：protein id 必須與 protein 內的資料夾名稱一致
 
 7. 整理輸出結果</br>
     qsub 執行
