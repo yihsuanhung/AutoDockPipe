@@ -38,7 +38,7 @@
     回到 autodock pipeline 目錄</br>
     ```
     python qsub_vina.py -p <protein_id>
-    python qsub_vina.py -p 3pe3</br>
+    python qsub_vina.py -p 3pe3
     ```
     註：protein id 必須與 protein 內的資料夾名稱一致
 
