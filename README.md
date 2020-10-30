@@ -62,3 +62,5 @@ script/
     存放 Pipeline 副程式
 vina/
     存放 AutoDock Vina 主程式
+misc/
+    存放雜項
