@@ -35,13 +35,20 @@
     
 6. 執行 vina </br>
     回到 autodock pipeline 目錄</br>
+    ```
     python qsub_vina.py -p <protein_id> (protein id 必須與 protein 內的資料夾名稱一致) </br>
     python qsub_vina.py -p 3pe3</br>
+    ```
 
 7. 整理輸出結果</br>
-    qsub qsub_parser.sh (qsub 執行)</br>
-    或</br>
-    python script/parser.py (直接執行)</br>
+    qsub 執行
+    ```
+    qsub qsub_parser.sh
+    ```
+    或直接執行
+    ```
+    python script/parser.py
+    ```
     輸出結果存在 result 資料夾內</br>
 
 8. 是視覺化輸出結果</br>
