@@ -40,6 +40,7 @@
     python qsub_vina.py -p <protein_id>
     python qsub_vina.py -p 3pe3
     ```
+    輸出結果存在 `output/` 資料夾內
     註：protein id 必須與 `protein/` 內的資料夾名稱一致
 
 7. 整理輸出結果</br>
