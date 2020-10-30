@@ -9,24 +9,20 @@ project_id = os.environ['PROJECTID']
 output_dir = os.path.join(root, "output")
 result_dir = os.path.join(root, "result")
 
-# print("[output_dir]", output_dir)
-# print("[result_dir]", result_dir)
-
 file_names = glob.glob(output_dir+'/*.pdbqt')
-# print(file_names)
 
 score = {}
 for file_name in file_names:
     with open(file_name) as file:
         l_name = re.findall(".+(structures_ligand_\d+_.+pdbqt)", file_name)[0]
-        score[l_name] = 0
         lines = file.readlines()
-        # for line in lines:
-        #     name = re.findall("REMARK.+(DB[0-9]+)", line)
-        #     if len(name) != 0:
-        #         name = name[0]
-        #         score[name] = 0
-        #         break
+        for line in lines:
+            name = re.findall("REMARK.+(DB[0-9]+)", line)
+            if len(name) != 0:
+                name = name[0]
+                l_name = name+","+l_name
+                score[l_name] = 0
+                break
 
         result_list = []
         for line in lines:

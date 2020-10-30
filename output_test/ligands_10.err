@@ -1,0 +1,9 @@
+
+
+Parse error on line 30 in file "/project/GP1/chialang1220/autodock/drugbank/ligands/ligands_10/structures_ligand_01967.pdbqt": ATOM syntax incorrect: "B" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+
+
+Parse error on line 13 in file "/project/GP1/chialang1220/autodock/drugbank/ligands/ligands_10/structures_ligand_09949.pdbqt": ATOM syntax incorrect: "Al" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+
+
+Parse error on line 19 in file "/project/GP1/chialang1220/autodock/drugbank/ligands/ligands_10/structures_ligand_07669.pdbqt": ATOM syntax incorrect: "Tc" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.

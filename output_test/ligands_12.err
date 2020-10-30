@@ -1,0 +1,6 @@
+
+
+Parse error on line 8 in file "/project/GP1/chialang1220/autodock/drugbank/ligands/ligands_12/structures_ligand_10385.pdbqt": ATOM syntax incorrect: "Si" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+
+
+Parse error on line 17 in file "/project/GP1/chialang1220/autodock/drugbank/ligands/ligands_12/structures_ligand_03216.pdbqt": ATOM syntax incorrect: "Si" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
