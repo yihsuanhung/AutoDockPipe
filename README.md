@@ -63,18 +63,18 @@ result.csv 已將 docking 過後的 pdbqt 檔案以分數最高至最低排序</
 
 ## 資料夾說明
 `drugbank/`</br>
-    存放 ligands 資料庫</br>
+    存放 ligands 資料庫</br></br>
 `protein/`</br>
     存放 protein</br>
     第一層為 protein id 之資料夾</br>
-    第二層需包含該 protein 之 pdbqt 檔案及 config 檔案</br>
+    第二層需包含該 protein 之 pdbqt 檔案及 config 檔案</br></br>
 `output/`</br>
-    存放 vina 與 qsub 之所有結果，包含 docking 後的 pdbqt 檔案以及 qsub 的 error 與 output 檔案</br>
+    存放 vina 與 qsub 之所有結果，包含 docking 後的 pdbqt 檔案以及 qsub 的 error 與 output 檔案</br></br>
 `result/`</br>
-    存放整理之後的輸出結果</br>
+    存放整理之後的輸出結果</br></br>
 `script/`</br>
-    存放 Pipeline 副程式</br>
+    存放 Pipeline 副程式</br></br>
 `vina/`</br>
-    存放 AutoDock Vina 主程式</br>
+    存放 AutoDock Vina 主程式</br></br>
 `misc/`</br>
     存放雜項</br>
